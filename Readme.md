@@ -1,14 +1,15 @@
 
 # excerpt
 
-Based on Ruby on Rails TextHelper.
-
-Extracts an excerpt from `text` that matches the first instance of `phrase`. The `radius` option expands the excerpt on each side of the first occurrence of `phrase` by the number of characters defined in `radius` (which defaults to 100). If the excerpt radius overflows the beginning or end of the text, then the `ending` option (which defaults to “…”) will be prepended/appended accordingly. If the phrase isn’t found, the original text is returned.
+Based on the Rails TextHelper.
 
 ```
 > excerpt('This is an example', 'an', 5);
 '...s is an exam...'
 ```
+
+Extracts an excerpt from `text` that matches the first instance of `phrase`. The `radius` option expands the excerpt on each side of the first occurrence of `phrase` by the number of characters defined in `radius` (which defaults to 100). If the excerpt radius overflows the beginning or end of the text, then the `ending` option (which defaults to “…”) will be prepended/appended accordingly. If the phrase isn’t found, the original text is returned.
+
 
 ## Installation
 
@@ -28,6 +29,10 @@ excerpt(example, 'is', 5).should.equal('This is a...');
 excerpt('This is also an example', 'an', 8, '<chop> ').should.equal('<chop> is also an example');
 
 ```
+
+## Credit
+
+Code adapted from CakePHP / Ruby on Rails
 
 ## License 
 
