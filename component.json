@@ -1,0 +1,7 @@
+{
+  "name": "excerpt",
+  "version": "0.0.1",
+  "description": "Extracts an excerpt of text that matches a phrase",
+  "keywords": ["string", "excerpt"],
+  "scripts": ["index.js"]
+}

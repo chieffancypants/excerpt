@@ -1,0 +1,13 @@
+{
+  "name": "excerpt",
+  "version": "0.0.1",
+  "description": "Extracts an excerpt of text that matches a phrase",
+  "keywords": ["component", "string", "excerpt"],
+  "author": "Wes Cruver <chieffancypants@gmail.com>",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "main": "index"
+}
